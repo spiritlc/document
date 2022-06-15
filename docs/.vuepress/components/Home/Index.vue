@@ -292,11 +292,6 @@
             <img :src="$withBase(`/index/${item.img}`)" alt="">
             <h3>{{ item.title }}</h3>
             <p>{{ item.desc }}</p>
-            <!-- <router-link
-              active-class="active"
-              to="/<%= lang >/guide/design"
-              exact><%= 5 >
-            </router-link> -->
           </div>
         </li>
       </ul>

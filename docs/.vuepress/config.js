@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  base: '/',
+  base: '/document/',
   configureWebpack: {
     resolve: {
       alias: {
@@ -9,24 +9,24 @@ module.exports = {
       }
     },
     module: {
-      rules: [
-        {
-          test: /\.md$/,
-          use: [
-            {
-              loader: 'vue-loader',
-              options: {
-                compilerOptions: {
-                  preserveWhitespace: false
-                }
-              }
-            },
-            {
-              loader: path.resolve(__dirname, './md-loader/index.js')
-            }
-          ]
-        }
-      ]
+      // rules: [
+      //   {
+      //     test: /\.md$/,
+      //     use: [
+      //       {
+      //         loader: 'vue-loader',
+      //         options: {
+      //           compilerOptions: {
+      //             preserveWhitespace: false
+      //           }
+      //         }
+      //       },
+      //       {
+      //         loader: path.resolve(__dirname, './md-loader/index.js')
+      //       }
+      //     ]
+      //   }
+      // ]
     }
   },
   themeConfig: {
@@ -38,7 +38,12 @@ module.exports = {
       nav: [
           { text: '指南', link: '/' },
           { text: '组件', link: '/components/ChangeLog.html' },
-          { text: '字体', link: 'https://google.com' },
+          { text: '版本', 
+            items: [
+              { text: '1.1.1', link: '/language/chinese/' },
+              { text: '1.1.2', link: '/language/japanese/' }
+            ] 
+          },
           { text: '资源', link: 'https://baidu.com' },
       ],
       sidebar: [

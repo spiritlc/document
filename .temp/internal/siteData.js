@@ -4,9 +4,16 @@
 export const siteData = {
   "title": "",
   "description": "",
-  "base": "/",
+  "base": "/document/",
   "headTags": [],
   "pages": [
+    {
+      "frontmatter": {},
+      "regularPath": "/components/ChangeLog.html",
+      "relativePath": "components/ChangeLog.md",
+      "key": "v-7a6c53fe",
+      "path": "/components/ChangeLog.html"
+    },
     {
       "title": "Home",
       "frontmatter": {
@@ -26,13 +33,6 @@ export const siteData = {
       "relativePath": "components/button.md",
       "key": "v-09e7d5eb",
       "path": "/components/button.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/components/ChangeLog.html",
-      "relativePath": "components/ChangeLog.md",
-      "key": "v-7a6c53fe",
-      "path": "/components/ChangeLog.html"
     },
     {
       "title": "安装",
@@ -65,6 +65,51 @@ export const siteData = {
       ]
     },
     {
+      "title": "快速上手",
+      "frontmatter": {},
+      "regularPath": "/components/guide/quickstart.html",
+      "relativePath": "components/guide/quickstart.md",
+      "key": "v-46a83fd8",
+      "path": "/components/guide/quickstart.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "快速上手",
+          "slug": "快速上手"
+        },
+        {
+          "level": 3,
+          "title": "使用 vue-cli@3",
+          "slug": "使用-vue-cli-3"
+        },
+        {
+          "level": 3,
+          "title": "使用 Starter Kit",
+          "slug": "使用-starter-kit"
+        },
+        {
+          "level": 3,
+          "title": "引入 Element",
+          "slug": "引入-element"
+        },
+        {
+          "level": 3,
+          "title": "全局配置",
+          "slug": "全局配置"
+        },
+        {
+          "level": 3,
+          "title": "开始使用",
+          "slug": "开始使用"
+        },
+        {
+          "level": 3,
+          "title": "使用 Nuxt.js",
+          "slug": "使用-nuxt-js"
+        }
+      ]
+    },
+    {
       "title": "禁用状态",
       "frontmatter": {},
       "regularPath": "/components/input.html",
@@ -76,15 +121,53 @@ export const siteData = {
           "level": 3,
           "title": "禁用状态",
           "slug": "禁用状态"
+        },
+        {
+          "level": 3,
+          "title": "Input Attributes",
+          "slug": "input-attributes"
+        },
+        {
+          "level": 3,
+          "title": "Input Slots",
+          "slug": "input-slots"
+        },
+        {
+          "level": 3,
+          "title": "Input Events",
+          "slug": "input-events"
+        },
+        {
+          "level": 3,
+          "title": "Input Methods",
+          "slug": "input-methods"
+        },
+        {
+          "level": 3,
+          "title": "Autocomplete Attributes",
+          "slug": "autocomplete-attributes"
+        },
+        {
+          "level": 3,
+          "title": "Autocomplete Slots",
+          "slug": "autocomplete-slots"
+        },
+        {
+          "level": 3,
+          "title": "Autocomplete Scoped Slot",
+          "slug": "autocomplete-scoped-slot"
+        },
+        {
+          "level": 3,
+          "title": "Autocomplete Events",
+          "slug": "autocomplete-events"
+        },
+        {
+          "level": 3,
+          "title": "Autocomplete Methods",
+          "slug": "autocomplete-methods"
         }
       ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/components/guide/quickstart.html",
-      "relativePath": "components/guide/quickstart.md",
-      "key": "v-46a83fd8",
-      "path": "/components/guide/quickstart.html"
     }
   ],
   "themeConfig": {
@@ -103,8 +186,17 @@ export const siteData = {
         "link": "/components/ChangeLog.html"
       },
       {
-        "text": "字体",
-        "link": "https://google.com"
+        "text": "版本",
+        "items": [
+          {
+            "text": "1.1.1",
+            "link": "/language/chinese/"
+          },
+          {
+            "text": "1.1.2",
+            "link": "/language/japanese/"
+          }
+        ]
       },
       {
         "text": "资源",
