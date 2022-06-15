@@ -1,0 +1,22 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "devTemp": "vuepress dev docs  --temp .temp",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "element-ui": "^2.15.9",
+    "highlight.js": "^11.5.1",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1",
+    "transliteration": "^2.2.0",
+    "vuepress": "^1.9.7"
+  }
+}
