@@ -61,6 +61,9 @@
   .cards {
     margin: 0 auto 110px;
     width: 1140px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     .container {
       padding: 0;
       margin: 0 -11px;
@@ -304,6 +307,7 @@
   export default {
     name: 'HomeIndex',
     created() {
+      console.log(this.$site)
       this.throttledHandleScroll = throttle(10, true, index => {
         this.handleScroll(index);
       });

@@ -4,60 +4,112 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "C:\\Users\\21000820\\Desktop\\demo\\docs\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "/Users/dule/Documents/CODE/document/node_modules/@vuepress/core/lib/client/components/GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-7a6c53fe",
-    path: "/components/ChangeLog.html",
+    name: "v-3566354e",
+    path: "/en/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7a6c53fe").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-3566354e").then(next)
     },
   },
   {
-    name: "v-509b31c6",
-    path: "/",
+    path: "/en/index.html",
+    redirect: "/en/"
+  },
+  {
+    name: "v-48a90e7d",
+    path: "/en/components/ChangeLog.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-509b31c6").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-48a90e7d").then(next)
     },
   },
   {
-    path: "/index.html",
-    redirect: "/"
-  },
-  {
-    name: "v-09e7d5eb",
-    path: "/components/button.html",
+    name: "v-22895202",
+    path: "/en/components/button.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-09e7d5eb").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-22895202").then(next)
     },
   },
   {
-    name: "v-477fd9f8",
-    path: "/components/guide/installation.html",
+    name: "v-44ad8d49",
+    path: "/en/components/guide/installation.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-477fd9f8").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-44ad8d49").then(next)
     },
   },
   {
-    name: "v-46a83fd8",
-    path: "/components/guide/quickstart.html",
+    name: "v-0fdd4c93",
+    path: "/en/components/guide/quickstart.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-46a83fd8").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-0fdd4c93").then(next)
     },
   },
   {
-    name: "v-2a924a15",
-    path: "/components/input.html",
+    name: "v-352cfa86",
+    path: "/en/components/input.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2a924a15").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-352cfa86").then(next)
+    },
+  },
+  {
+    name: "v-c98d8da4",
+    path: "/zh/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-c98d8da4").then(next)
+    },
+  },
+  {
+    path: "/zh/index.html",
+    redirect: "/zh/"
+  },
+  {
+    name: "v-792e4b5d",
+    path: "/zh/components/ChangeLog.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-792e4b5d").then(next)
+    },
+  },
+  {
+    name: "v-7a3225b5",
+    path: "/zh/components/button.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7a3225b5").then(next)
+    },
+  },
+  {
+    name: "v-6e304a7f",
+    path: "/zh/components/guide/installation.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6e304a7f").then(next)
+    },
+  },
+  {
+    name: "v-32034a09",
+    path: "/zh/components/guide/quickstart.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-32034a09").then(next)
+    },
+  },
+  {
+    name: "v-1e98751d",
+    path: "/zh/components/input.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1e98751d").then(next)
     },
   },
   {

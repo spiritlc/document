@@ -11,39 +11,62 @@ $badgeErrorColor = #DA5961
 
 .content pre{  margin: 0!important;}
 
+//上下页导航
+.page-nav {
+  max-width: 100%;
+}
+// code代码块
+div.language-javascript, div.language-shell, div.language-bash {
+  line-height: 1.8;
+  font-family: Menlo, Monaco, Consolas, Courier, monospace;
+  font-size: 12px;
+  background-color: #fafafa !important;
+  border: solid 1px #eaeefb;
+  margin-bottom: 25px;
+  border-radius: 4px;
+  -webkit-font-smoothing: auto;
+  pre {
+    padding: 0.5em 1.5em !important;
+  }
+  code {
+    color: #333 !important;
+  }
+}
+
 .theme-default-content:not(.custom){
     max-width: 1000px !important;
 }
 table {
-          border-collapse: collapse;
-          width: 100%;
-          background-color: #fff;
-          font-size: 14px;
-          margin-bottom: 45px;
-          line-height: 1.5em;
+  display table
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+  font-size: 14px;
+  margin-bottom: 45px;
+  line-height: 1.5em;
 
-          strong {
-            font-weight: normal;
-          }
+  strong {
+    font-weight: normal;
+  }
 
-          td, th {
-            padding: 15px;
-            max-width: 250px;
-            border none
-          }
+  td, th {
+    padding: 15px;
+    max-width: 250px;
+    border none
+  }
 
-          th {
-            text-align: left;
-            white-space: nowrap;
-            color: #909399;
-            font-weight: normal;
-          }
+  th {
+    text-align: left;
+    white-space: nowrap;
+    color: #909399;
+    font-weight: normal;
+  }
 
-          td {
-            color: #606266;
-          }
+  td {
+    color: #606266;
+  }
 
-          th:first-child, td:first-child {
-            padding-left: 10px;
-          }
-        }
+  th:first-child, td:first-child {
+    padding-left: 10px;
+  }
+}

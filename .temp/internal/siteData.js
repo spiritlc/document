@@ -4,15 +4,170 @@
 export const siteData = {
   "title": "",
   "description": "",
-  "base": "/document/",
+  "base": "/",
   "headTags": [],
   "pages": [
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroText": null,
+        "tagline": null,
+        "footer": "Copyright © 2014-2022 青岛海尔科技有限公司 版权所有 鲁ICP备14026385号-3"
+      },
+      "regularPath": "/en/",
+      "relativePath": "en/README.md",
+      "key": "v-3566354e",
+      "path": "/en/"
+    },
+    {
       "frontmatter": {},
-      "regularPath": "/components/ChangeLog.html",
-      "relativePath": "components/ChangeLog.md",
-      "key": "v-7a6c53fe",
-      "path": "/components/ChangeLog.html"
+      "regularPath": "/en/components/ChangeLog.html",
+      "relativePath": "en/components/ChangeLog.md",
+      "key": "v-48a90e7d",
+      "path": "/en/components/ChangeLog.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/en/components/button.html",
+      "relativePath": "en/components/button.md",
+      "key": "v-22895202",
+      "path": "/en/components/button.html"
+    },
+    {
+      "title": "Installation",
+      "frontmatter": {},
+      "regularPath": "/en/components/guide/installation.html",
+      "relativePath": "en/components/guide/installation.md",
+      "key": "v-44ad8d49",
+      "path": "/en/components/guide/installation.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "Installation",
+          "slug": "installation"
+        },
+        {
+          "level": 3,
+          "title": "npm",
+          "slug": "npm"
+        },
+        {
+          "level": 3,
+          "title": "CDN",
+          "slug": "cdn"
+        },
+        {
+          "level": 3,
+          "title": "Hello world",
+          "slug": "hello-world"
+        }
+      ]
+    },
+    {
+      "title": "Quick start",
+      "frontmatter": {},
+      "regularPath": "/en/components/guide/quickstart.html",
+      "relativePath": "en/components/guide/quickstart.md",
+      "key": "v-0fdd4c93",
+      "path": "/en/components/guide/quickstart.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "Quick start",
+          "slug": "quick-start"
+        },
+        {
+          "level": 3,
+          "title": "Use vue-cli@3",
+          "slug": "use-vue-cli-3"
+        },
+        {
+          "level": 3,
+          "title": "Use Starter Kit",
+          "slug": "use-starter-kit"
+        },
+        {
+          "level": 3,
+          "title": "Import Element",
+          "slug": "import-element"
+        },
+        {
+          "level": 3,
+          "title": "Global config",
+          "slug": "global-config"
+        },
+        {
+          "level": 3,
+          "title": "Start coding",
+          "slug": "start-coding"
+        },
+        {
+          "level": 3,
+          "title": "Use Nuxt.js",
+          "slug": "use-nuxt-js"
+        }
+      ]
+    },
+    {
+      "title": "禁用状态",
+      "frontmatter": {},
+      "regularPath": "/en/components/input.html",
+      "relativePath": "en/components/input.md",
+      "key": "v-352cfa86",
+      "path": "/en/components/input.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "禁用状态",
+          "slug": "禁用状态"
+        },
+        {
+          "level": 3,
+          "title": "Input Attributes",
+          "slug": "input-attributes"
+        },
+        {
+          "level": 3,
+          "title": "Input Slots",
+          "slug": "input-slots"
+        },
+        {
+          "level": 3,
+          "title": "Input Events",
+          "slug": "input-events"
+        },
+        {
+          "level": 3,
+          "title": "Input Methods",
+          "slug": "input-methods"
+        },
+        {
+          "level": 3,
+          "title": "Autocomplete Attributes",
+          "slug": "autocomplete-attributes"
+        },
+        {
+          "level": 3,
+          "title": "Autocomplete Slots",
+          "slug": "autocomplete-slots"
+        },
+        {
+          "level": 3,
+          "title": "Autocomplete Scoped Slot",
+          "slug": "autocomplete-scoped-slot"
+        },
+        {
+          "level": 3,
+          "title": "Autocomplete Events",
+          "slug": "autocomplete-events"
+        },
+        {
+          "level": 3,
+          "title": "Autocomplete Methods",
+          "slug": "autocomplete-methods"
+        }
+      ]
     },
     {
       "title": "Home",
@@ -20,27 +175,51 @@ export const siteData = {
         "home": true,
         "heroText": null,
         "tagline": null,
-        "footer": "MIT Licensed | Copyright © 2018-present Evan You"
+        "footer": "Copyright © 2014-2022 青岛海尔科技有限公司 版权所有 鲁ICP备14026385号-3"
       },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-509b31c6",
-      "path": "/"
+      "regularPath": "/zh/",
+      "relativePath": "zh/README.md",
+      "key": "v-c98d8da4",
+      "path": "/zh/"
     },
     {
       "frontmatter": {},
-      "regularPath": "/components/button.html",
-      "relativePath": "components/button.md",
-      "key": "v-09e7d5eb",
-      "path": "/components/button.html"
+      "regularPath": "/zh/components/ChangeLog.html",
+      "relativePath": "zh/components/ChangeLog.md",
+      "key": "v-792e4b5d",
+      "path": "/zh/components/ChangeLog.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "2.15.9",
+          "slug": "_2-15-9"
+        },
+        {
+          "level": 3,
+          "title": "2.15.8",
+          "slug": "_2-15-8"
+        },
+        {
+          "level": 3,
+          "title": "2.15.7",
+          "slug": "_2-15-7"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/zh/components/button.html",
+      "relativePath": "zh/components/button.md",
+      "key": "v-7a3225b5",
+      "path": "/zh/components/button.html"
     },
     {
       "title": "安装",
       "frontmatter": {},
-      "regularPath": "/components/guide/installation.html",
-      "relativePath": "components/guide/installation.md",
-      "key": "v-477fd9f8",
-      "path": "/components/guide/installation.html",
+      "regularPath": "/zh/components/guide/installation.html",
+      "relativePath": "zh/components/guide/installation.md",
+      "key": "v-6e304a7f",
+      "path": "/zh/components/guide/installation.html",
       "headers": [
         {
           "level": 3,
@@ -67,13 +246,13 @@ export const siteData = {
     {
       "title": "快速上手",
       "frontmatter": {},
-      "regularPath": "/components/guide/quickstart.html",
-      "relativePath": "components/guide/quickstart.md",
-      "key": "v-46a83fd8",
-      "path": "/components/guide/quickstart.html",
+      "regularPath": "/zh/components/guide/quickstart.html",
+      "relativePath": "zh/components/guide/quickstart.md",
+      "key": "v-32034a09",
+      "path": "/zh/components/guide/quickstart.html",
       "headers": [
         {
-          "level": 2,
+          "level": 3,
           "title": "快速上手",
           "slug": "快速上手"
         },
@@ -112,10 +291,10 @@ export const siteData = {
     {
       "title": "禁用状态",
       "frontmatter": {},
-      "regularPath": "/components/input.html",
-      "relativePath": "components/input.md",
-      "key": "v-2a924a15",
-      "path": "/components/input.html",
+      "regularPath": "/zh/components/input.html",
+      "relativePath": "zh/components/input.md",
+      "key": "v-1e98751d",
+      "path": "/zh/components/input.html",
       "headers": [
         {
           "level": 3,
@@ -176,71 +355,157 @@ export const siteData = {
       "apiKey": "<API_KEY>",
       "indexName": "<INDEX_NAME>"
     },
-    "nav": [
-      {
-        "text": "指南",
-        "link": "/"
-      },
-      {
-        "text": "组件",
-        "link": "/components/ChangeLog.html"
-      },
-      {
-        "text": "版本",
-        "items": [
+    "locales": {
+      "/zh/": {
+        "nav": [
           {
-            "text": "1.1.1",
-            "link": "/language/chinese/"
+            "text": "指南",
+            "link": "/zh/"
           },
           {
-            "text": "1.1.2",
-            "link": "/language/japanese/"
-          }
-        ]
-      },
-      {
-        "text": "资源",
-        "link": "https://baidu.com"
-      }
-    ],
-    "sidebar": [
-      {
-        "title": "更新日志",
-        "path": "/components/ChangeLog.html",
-        "collapsable": false,
-        "sidebarDepth": 0
-      },
-      {
-        "title": "开发指南",
-        "collapsable": false,
-        "sidebarDepth": 1,
-        "children": [
-          {
-            "title": "安装",
-            "path": "/components/guide/installation",
-            "collapsable": false,
-            "sidebarDepth": 0
+            "text": "组件",
+            "link": "/zh/components/ChangeLog.html"
           },
           {
-            "title": "快速上手",
-            "path": "/components/guide/quickstart",
-            "collapsable": false,
-            "sidebarDepth": 0
-          }
-        ]
-      },
-      {
-        "title": "组件",
-        "children": [
+            "text": "版本",
+            "items": [
+              {
+                "text": "1.1.1",
+                "link": "/language/chinese/"
+              },
+              {
+                "text": "1.1.2",
+                "link": "/language/japanese/"
+              }
+            ]
+          },
           {
-            "title": "input",
-            "path": "/components/input",
-            "collapsable": false,
-            "sidebarDepth": 0
+            "text": "资源",
+            "link": "https://baidu.com"
           }
         ],
-        "initialOpenGroupIndex": -1
+        "sidebar": [
+          {
+            "title": "更新日志",
+            "path": "/zh/components/ChangeLog.html",
+            "collapsable": false,
+            "sidebarDepth": 0
+          },
+          {
+            "title": "开发指南",
+            "collapsable": false,
+            "sidebarDepth": 1,
+            "children": [
+              {
+                "title": "安装",
+                "path": "/zh/components/guide/installation",
+                "collapsable": false,
+                "sidebarDepth": 0
+              },
+              {
+                "title": "快速上手",
+                "path": "/zh/components/guide/quickstart",
+                "collapsable": false,
+                "sidebarDepth": 0
+              }
+            ]
+          },
+          {
+            "title": "组件",
+            "children": [
+              {
+                "title": "input",
+                "path": "/zh/components/input",
+                "collapsable": false,
+                "sidebarDepth": 0
+              }
+            ],
+            "initialOpenGroupIndex": -1
+          }
+        ]
+      },
+      "/en/": {
+        "nav": [
+          {
+            "text": "guide",
+            "link": "/en/components/ChangeLog.html"
+          },
+          {
+            "text": "test",
+            "link": "/en/components/ChangeLog.html"
+          },
+          {
+            "text": "版本",
+            "items": [
+              {
+                "text": "1.1.1",
+                "link": "/language/chinese/"
+              },
+              {
+                "text": "1.1.2",
+                "link": "/language/japanese/"
+              }
+            ]
+          },
+          {
+            "text": "资源",
+            "link": "https://baidu.com"
+          }
+        ],
+        "sidebar": [
+          {
+            "title": "更新日志",
+            "path": "/en/components/ChangeLog.html",
+            "collapsable": false,
+            "sidebarDepth": 0
+          },
+          {
+            "title": "开发指南",
+            "collapsable": false,
+            "sidebarDepth": 1,
+            "children": [
+              {
+                "title": "installation",
+                "path": "/en/components/guide/installation",
+                "collapsable": false,
+                "sidebarDepth": 0
+              },
+              {
+                "title": "Quick Start",
+                "path": "/en/components/guide/quickstart",
+                "collapsable": false,
+                "sidebarDepth": 0
+              }
+            ]
+          },
+          {
+            "title": "组件",
+            "children": [
+              {
+                "title": "input",
+                "path": "/en/components/input",
+                "collapsable": false,
+                "sidebarDepth": 0
+              }
+            ],
+            "initialOpenGroupIndex": -1
+          }
+        ]
       }
-    ]
+    }
+  },
+  "locales": {
+    "/zh/": {
+      "lang": "中文",
+      "title": "VuePress",
+      "description": "Vue 驱动的静态网站生成器",
+      "path": "/zh/"
+    },
+    "/en/": {
+      "lang": "Engulish",
+      "title": "VuePress",
+      "description": "Vue-powered Static Site Generator",
+      "path": "/en/"
+    }
   }
 }

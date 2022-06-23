@@ -1,32 +1,27 @@
 const path = require('path');
-
+const locales = require('./config/locales.json')
+ 
 module.exports = {
-  base: '/document/',
+  base: '/',
+  locales: {
+    // 键名是该语言所属的子路径
+    // 作为特例，默认语言可以使用 '/' 作为其路径。
+    '/zh/': {
+      lang: '中文',
+      title: 'VuePress',
+      description: 'Vue 驱动的静态网站生成器'
+    },
+    '/en/': {
+      lang: 'Engulish', // 将会被设置为 <html> 的 lang 属性
+      title: 'VuePress',
+      description: 'Vue-powered Static Site Generator'
+    }
+  },
   configureWebpack: {
     resolve: {
       alias: {
         '@img': 'path/assets/img'
       }
-    },
-    module: {
-      // rules: [
-      //   {
-      //     test: /\.md$/,
-      //     use: [
-      //       {
-      //         loader: 'vue-loader',
-      //         options: {
-      //           compilerOptions: {
-      //             preserveWhitespace: false
-      //           }
-      //         }
-      //       },
-      //       {
-      //         loader: path.resolve(__dirname, './md-loader/index.js')
-      //       }
-      //     ]
-      //   }
-      // ]
     }
   },
   themeConfig: {
@@ -35,56 +30,7 @@ module.exports = {
         apiKey: '<API_KEY>',
         indexName: '<INDEX_NAME>'
       },
-      nav: [
-          { text: '指南', link: '/' },
-          { text: '组件', link: '/components/ChangeLog.html' },
-          { text: '版本', 
-            items: [
-              { text: '1.1.1', link: '/language/chinese/' },
-              { text: '1.1.2', link: '/language/japanese/' }
-            ] 
-          },
-          { text: '资源', link: 'https://baidu.com' },
-      ],
-      sidebar: [
-          {
-            title: '更新日志',   // 必要的
-            path: '/components/ChangeLog.html',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-            collapsable: false, // 可选的, 默认值是 true,
-            sidebarDepth: 0,    // 可选的, 默认值是 1
-          },
-          {
-            title: '开发指南',   // 必要的
-            collapsable: false, // 可选的, 默认值是 true,
-            sidebarDepth: 1,    // 可选的, 默认值是 1
-            children: [
-              {
-                title: '安装',
-                path: '/components/guide/installation',
-                collapsable: false, // 可选的, 默认值是 true,
-                sidebarDepth: 0,    // 可选的, 默认值是 1
-              },
-              {
-                title: '快速上手',
-                path: '/components/guide/quickstart',
-                collapsable: false, // 可选的, 默认值是 true,
-                sidebarDepth: 0,    // 可选的, 默认值是 1
-              }
-            ]
-          },
-          {
-            title: '组件',
-            children: [
-              {
-                title: 'input',
-                path: '/components/input',
-                collapsable: false, // 可选的, 默认值是 true,
-                sidebarDepth: 0,    // 可选的, 默认值是 1
-              }
-            ],
-            initialOpenGroupIndex: -1 // 可选的, 默认值是 0
-          }
-      ]
+      locales
   }
 }
   

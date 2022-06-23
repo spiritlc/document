@@ -1,0 +1,128 @@
+{
+  "/zh/": {
+    "nav": [{
+        "text": "指南",
+        "link": "/zh/"
+      },
+      {
+        "text": "组件",
+        "link": "/zh/components/ChangeLog.html"
+      },
+      {
+        "text": "版本",
+        "items": [{
+            "text": "1.1.1",
+            "link": "/language/chinese/"
+          },
+          {
+            "text": "1.1.2",
+            "link": "/language/japanese/"
+          }
+        ]
+      },
+      {
+        "text": "资源",
+        "link": "https://baidu.com"
+      }
+    ],
+    "sidebar": [{
+        "title": "更新日志",
+        "path": "/zh/components/ChangeLog.html",
+        "collapsable": false,
+        "sidebarDepth": 0
+      },
+      {
+        "title": "开发指南",
+        "collapsable": false,
+        "sidebarDepth": 1,
+        "children": [{
+            "title": "安装",
+            "path": "/zh/components/guide/installation",
+            "collapsable": false,
+            "sidebarDepth": 0
+          },
+          {
+            "title": "快速上手",
+            "path": "/zh/components/guide/quickstart",
+            "collapsable": false,
+            "sidebarDepth": 0
+          }
+        ]
+      },
+      {
+        "title": "组件",
+        "children": [{
+          "title": "input",
+          "path": "/zh/components/input",
+          "collapsable": false,
+          "sidebarDepth": 0
+        }],
+        "initialOpenGroupIndex": -1
+      }
+    ]
+  },
+  "/en/": {
+    "nav": [
+      {
+        "text": "guide",
+        "link": "/en/components/ChangeLog.html"
+      },
+      {
+        "text": "test",
+        "link": "/en/components/ChangeLog.html"
+      },
+      {
+        "text": "版本",
+        "items": [{
+            "text": "1.1.1",
+            "link": "/language/chinese/"
+          },
+          {
+            "text": "1.1.2",
+            "link": "/language/japanese/"
+          }
+        ]
+      },
+      {
+        "text": "资源",
+        "link": "https://baidu.com"
+      }
+    ],
+    "sidebar": [
+      {
+        "title": "更新日志",
+        "path": "/en/components/ChangeLog.html",
+        "collapsable": false,
+        "sidebarDepth": 0
+      },
+      {
+        "title": "开发指南",
+        "collapsable": false,
+        "sidebarDepth": 1,
+        "children": [{
+            "title": "installation",
+            "path": "/en/components/guide/installation",
+            "collapsable": false,
+            "sidebarDepth": 0
+          },
+          {
+            "title": "Quick Start",
+            "path": "/en/components/guide/quickstart",
+            "collapsable": false,
+            "sidebarDepth": 0
+          }
+        ]
+      },
+      {
+        "title": "组件",
+        "children": [{
+          "title": "input",
+          "path": "/en/components/input",
+          "collapsable": false,
+          "sidebarDepth": 0
+        }],
+        "initialOpenGroupIndex": -1
+      }
+    ]
+  }
+}
